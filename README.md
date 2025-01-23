@@ -1,6 +1,6 @@
 # SRGANProject
 
-A GAN to convert low resolution images into high resolution, this SR GAN project is inspired by the following paper:
+A super resolution GAN to convert low resolution images into high resolution, this SR GAN project is inspired by the following paper:
 https://arxiv.org/pdf/1609.04802.pdf
 
 Dataset used:
