@@ -3,7 +3,8 @@ A **Super-Resolution Generative Adversarial Network (SRGAN)** designed to upscal
 
 ## Project Structure
 
-`
+```
+
 .
 ├── data/
 │   ├── hr_images/
@@ -14,7 +15,9 @@ A **Super-Resolution Generative Adversarial Network (SRGAN)** designed to upscal
 ├── gen_e_10.h5
 ├── LICENSE
 ├── README.md
-└── requirements.txt`
+└── requirements.txt
+
+```
 
 
 ## Features
