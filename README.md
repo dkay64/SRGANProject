@@ -1,10 +1,29 @@
 # SRGAN Project
+A **Super-Resolution Generative Adversarial Network (SRGAN)** designed to upscale low-resolution images into high-resolution ones, inspired by the paper [*Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network*](https://arxiv.org/pdf/1609.04802.pdf).
 
-A **Super-Resolution Generative Adversarial Network (SRGAN)** designed to upscale low-resolution images into high-resolution ones. This project is inspired by the paper [*Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network*](https://arxiv.org/pdf/1609.04802.pdf).  
+## Project Structure
+
+.
+├── data/
+│   ├── hr_images/
+│   ├── lr_images/
+│   └── original_images/
+├── DK_SRGANProj_prepare_dataset.py
+├── DK_SRGANProj_training.py
+├── gen_e_10.h5
+├── LICENSE
+├── README.md
+└── requirements.txt
+
 
 ## Features
-- Converts low-resolution images (32x32) into high-resolution images (128x128) using a GAN-based approach.
-- Trained on a subset of the **MIRFLICKR-25K dataset** with preprocessed data for effective training.  
+- Converts low-resolution images (32x32) into high-resolution images (128x128) using a GAN-based approach
+- Trained on a subset of the **MIRFLICKR-25K dataset**
+- Simple and modular project structure for easy dataset preparation and model training
+
+## Requirements
+Install dependencies using:
+`pip install -r requirements.txt`
 
 ---
 
@@ -73,6 +92,11 @@ A **Super-Resolution Generative Adversarial Network (SRGAN)** designed to upscal
 
 - Paper: [*Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network*](https://arxiv.org/pdf/1609.04802.pdf)  
 - Dataset: [MIRFLICKR-25K dataset](https://press.liacs.nl/mirflickr/mirdownload.html)  
+
+---
+
+## LICENSE
+Apache License, Version 2.0 - See LICENSE file for details
 
 ---
 
