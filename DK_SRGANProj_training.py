@@ -267,35 +267,3 @@ plt.title('Orig. HR image')
 plt.imshow(tar_image[0,:,:,:])
 
 plt.show()
-
-
-################################################
-sreeni_lr = cv2.imread("data/sreeni_32.jpg")
-sreeni_hr = cv2.imread("data/sreeni_256.jpg")
-
-#Change images from BGR to RGB for plotting. 
-#Remember that we used cv2 to load images which loads as BGR.
-sreeni_lr = cv2.cvtColor(sreeni_lr, cv2.COLOR_BGR2RGB)
-sreeni_hr = cv2.cvtColor(sreeni_hr, cv2.COLOR_BGR2RGB)
-
-sreeni_lr = sreeni_lr / 255.
-sreeni_hr = sreeni_hr / 255.
-
-sreeni_lr = np.expand_dims(sreeni_lr, axis=0)
-sreeni_hr = np.expand_dims(sreeni_hr, axis=0)
-
-generated_sreeni_hr = generator.predict(sreeni_lr)
-
-# plot all three images
-plt.figure(figsize=(16, 8))
-plt.subplot(231)
-plt.title('LR Image')
-plt.imshow(sreeni_lr[0,:,:,:])
-plt.subplot(232)
-plt.title('Superresolution')
-plt.imshow(generated_sreeni_hr[0,:,:,:])
-plt.subplot(233)
-plt.title('Orig. HR image')
-plt.imshow(sreeni_hr[0,:,:,:])
-
-plt.show()

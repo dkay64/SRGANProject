@@ -12,3 +12,4 @@ for img in os.listdir( train_dir + "/original_images"):
     lr_img_array = cv2.resize(img_array,(32,32))
     cv2.imwrite(train_dir+ "/hr_images/" + img, img_array)
     cv2.imwrite(train_dir+ "/lr_images/"+ img, lr_img_array)
+    
