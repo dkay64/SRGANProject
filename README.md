@@ -1,6 +1,6 @@
 # SRGAN Project
 
-A **Super-Resolution GAN (SRGAN)** designed to upscale low-resolution images into high-resolution ones. This project is inspired by the paper [*Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network*](https://arxiv.org/pdf/1609.04802.pdf).  
+A **Super-Resolution Generative Adversarial Network (SRGAN)** designed to upscale low-resolution images into high-resolution ones. This project is inspired by the paper [*Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network*](https://arxiv.org/pdf/1609.04802.pdf).  
 
 ## Features
 - Converts low-resolution images (32x32) into high-resolution images (128x128) using a GAN-based approach.
