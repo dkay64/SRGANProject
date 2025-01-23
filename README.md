@@ -7,6 +7,6 @@ Dataset used:
 https://press.liacs.nl/mirflickr/mirdownload.html<br>
 This website includes  a dataset (mirflickr25k.zip) which contains 25,000 images, which I then resized into high resolution (128x128) and low resolution (32x32) using the script in DK_SRGANProj_prepare_dataset.py.
 
-The model (in gen_e_10.h5) is currently trained on 5000 of the images (10 epochs), usig the script in DK_SRGANProj_training.
+The model (in gen_e_10.h5) is currently trained on 5000 of the images (10 epochs), using the script in DK_SRGANProj_training.
 
 Potential option for extension/area of research: how to train on remote cloud server (i.e. AWS, Azure, etc.) instead of on the local machine (RTX 4070) to have faster training.
